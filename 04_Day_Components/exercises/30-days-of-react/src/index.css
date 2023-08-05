@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300&family=Poppins:wght@300&display=swap');
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.centered {
+  text-align: center;
+}
+
+.tech-used-img {
+  height: 200px;
+  padding-right: 30px;
+}
+
+.tech-used{
+  text-align: center; 
+}
+
+.blue-div{
+  margin: 50px;
+  border-radius: 50px;
+  text-align: center;
+  background-color: rgb(192, 239, 255);
+}
+
+.subscribe-text{
+  padding-top: 30px;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: 'Dosis', sans-serif;
+}
+
+#subscribe-footer-text{
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  padding: 10px 0px 10px 0px;
+}
+
+#inputs{
+  padding-bottom: 100px;
+}
+
+
+.footer-input{
+  border-radius: 5px;
+  margin-left: 10px;
+  padding: 10px 20px 10px 20px;
+  line-height: 20px;
+  border: none;
+}
+
+#submit-button{
+  padding: 30px 0px 60px 0px;
+}
+
+#submit{
+  padding: 10px 0px 10px 0px;
+  width: 20%;
+  background-color: rgb(255, 127, 146);
+  border-radius: 10px;
+  border: none;
+  color: white;
+  font-size: medium;
+}
