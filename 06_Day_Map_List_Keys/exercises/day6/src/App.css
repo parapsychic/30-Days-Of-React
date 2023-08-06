@@ -1,0 +1,19 @@
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+#grid-parent{
+  display: grid;
+  margin: 0px 30px 0px 30px;
+  width: 400px;
+  grid-template-columns: repeat(8,auto);
+  align-self: center;
+}
+
+.grid-item{
+  margin: 1px;
+  width: 50px;
+  line-height: 50px;
+}
